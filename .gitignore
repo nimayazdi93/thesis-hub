@@ -1,2 +1,10 @@
 
 vgg16_weights.h5
+cached-data/cached-data.rar
+cached-data/feature_matrixcars.mat
+cached-data/feature_matrixdogs.mat
+cached-data/img_path_objcars.mat
+cached-data/SSA_featurescars-mul.mat
+cached-data/SSA_featurescars-plus.mat
+cached-data/SSA_featuresdogs-mul.mat
+cached-data/SSA_featuresdogs-plus.mat
