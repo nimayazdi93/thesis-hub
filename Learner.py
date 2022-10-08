@@ -8,7 +8,7 @@ fe=FeatureExtractor()
 image_paths = [] 
 dataset='dogs'
 method='ssa-mul'
-image_folder = os.getcwd()+'/data-set/dogs/'
+image_folder = os.getcwd()+'/data-set/cars/cars_train/'
 print(image_folder)
 for path, subdirs, files in os.walk(image_folder):
     for name in files:
