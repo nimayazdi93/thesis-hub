@@ -1,7 +1,12 @@
+
 import numpy as np
+from keras.models import Sequential
+from keras.layers import Conv2D
+import tensorflow as tf
+
 def SSA_H_Plus(features,alpha=1):
-    A= features
-    print(len(A))
+    A=tf.reshape(features,[7*7*512]).numpy()
+   
     B = A
     C = A
     AxB = np.multiply(A, B) 
@@ -10,6 +15,7 @@ def SSA_H_Plus(features,alpha=1):
     AlphaxCxS=alpha*CxS 
     H = np.add(A,AlphaxCxS)
     return H
+
 
 def SSA_H_Mul(features,alpha=1):
     A= features

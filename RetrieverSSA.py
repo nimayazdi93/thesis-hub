@@ -2,10 +2,10 @@ from math import sqrt
 import scipy.io as sio
 import numpy as np
 from FeatureExtractor import FeatureExtractor
-from SSA import SSA, SSA_H_Mul, SSA_H_Plus 
+from SSA import  SSA_H_Plus 
 import sys
  
-def RetrieverSSA(fe,SSA_features,imgPath_obj,input_img): 
+def RetrieverSSA(fe,SSA_features,imgPath_obj,input_img,top): 
     input_feature=fe.extract(input_img)
    
     input_ssa=SSA_H_Plus(input_feature) 
@@ -19,7 +19,7 @@ def RetrieverSSA(fe,SSA_features,imgPath_obj,input_img):
     img_score.sort()
 
     output_src=[]
-    for i in range(20):
+    for i in range(top):
         outputpath=img_score[i]
         outputpath1=outputpath[1] 
         outputsource=imgPath_obj[outputpath1] 

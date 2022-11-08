@@ -1,0 +1,28 @@
+[
+    {
+        "input": "n02092339_327.jpg",
+        "class": "n02092339-Weimaraner",
+        "output": [
+            {
+                "name": "n02092339_2691.jpg",
+                "class": "n02092339-Weimaraner"
+            },
+            {
+                "name": "n02092339_49.jpg",
+                "class": "n02092339-Weimaraner"
+            },
+            {
+                "name": "n02109047_946.jpg",
+                "class": "n02109047-Great_Dane"
+            },
+            {
+                "name": "n02102480_424.jpg",
+                "class": "n02102480-Sussex_spaniel"
+            },
+            {
+                "name": "n02092339_258.jpg",
+                "class": "n02092339-Weimaraner"
+            }
+        ]
+    }
+]

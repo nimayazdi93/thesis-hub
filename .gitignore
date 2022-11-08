@@ -9,3 +9,11 @@ cached-data/SSA_featurescars-plus.mat
 cached-data/SSA_featuresdogs-mul.mat
 cached-data/SSA_featuresdogs-plus.mat
 cached-data/img_path_objdogs.mat
+data-set/
+vgg16_weights_notop.h5
+cached-data/new/cars/ssa_features_cars.mat
+cached-data/new/cars/img_path_obj_cars.mat
+cached-data/new/dogs/img_path_obj_dogs_shuffle.mat
+cached-data/new/dogs/img_path_obj_dogs.mat
+cached-data/new/dogs/ssa_features_dogs.mat
+cached-data/new/dogs/ssa_features_dogs_shuffle.mat
