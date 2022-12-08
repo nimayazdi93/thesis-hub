@@ -17,3 +17,4 @@ cached-data/new/dogs/img_path_obj_dogs_shuffle.mat
 cached-data/new/dogs/img_path_obj_dogs.mat
 cached-data/new/dogs/ssa_features_dogs.mat
 cached-data/new/dogs/ssa_features_dogs_shuffle.mat
+cached-data/new/CUB/ssa_features_cub.mat
